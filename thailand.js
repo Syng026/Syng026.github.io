@@ -14,4 +14,5 @@ L.circle([13.7499, 100.4916], {
         fillColor: 'gold',
         color: 'white',
         radius: 1000
-}).addTo(map);
+}).bindPopup(`<iframe width="280" height="120" src="https://www.youtube.com/embed/UunewAC_n6I?si=6IktbrHqQHqx7Ma1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`)
+        .addTo(map);
