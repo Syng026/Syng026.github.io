@@ -14,4 +14,4 @@ L.circle([13.7499, 100.4916],{
         fillColor: 'gold',
         color: 'white',
         radius: 1000
-}):addTo(map);
+}).addTo(map);
