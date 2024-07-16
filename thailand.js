@@ -10,7 +10,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // The Grand Palace: Coordinates: 13.7499° N, 100.4916° E -> 13.7499, 100.4916
-L.circle([13.7499, 100.4916],{
+L.circle([13.7499, 100.4916], {
         fillColor: 'gold',
         color: 'white',
         radius: 1000
